@@ -1,5 +1,5 @@
 {
-  "name": "taylorDesktop",
+  "name": "taylor-desktop",
   "version": "1.0.0",
   "description": "The API for taylor's desktop",
   "main": "index.js",
