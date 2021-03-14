@@ -2,3 +2,4 @@ node_modules
 shared
 dist
 .vscode
+package-lock.json
