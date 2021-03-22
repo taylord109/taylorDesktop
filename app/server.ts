@@ -130,7 +130,7 @@ class lib {
 app.get('/readZip', (req, res) => {
     try {
         //if (!req?.params?.dir) return res.status(500).end();
-        lib.findDir("E:\\models\\printables\\artisian_club\\ashen_alfar_inquisitors", /^(?!.* - Supported\.zip$).*\.zip.*$/g, true, true).then((results) => {
+        lib.findDir("E:\\models\\printables\\artisian_club", /^(?!.* - Supported\.zip$).*\.zip.*$/g, true, true).then((results) => {
             return res.status(200).json(results).end();
         });
     }
